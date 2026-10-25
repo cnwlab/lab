@@ -1,0 +1,11 @@
+# Compiled C executables
+client
+server
+*.out
+*.o
+
+# macOS files
+.DS_Store
+
+# VS Code settings
+.vscode/
