@@ -39,7 +39,7 @@ int main(){
     new_socket=accept(server_fd,(struct sockaddr*)&address,(socklen_t*)&addr_len);
     if (new_socket<0)
     {
-        perror("accept");
+        perror("accept failed");
         exit(EXIT_FAILURE);
     }
 

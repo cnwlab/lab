@@ -12,7 +12,6 @@ int main(){
     char *message="hello from client";
     char buffer[1024]={0};
 
-
     sock=socket(AF_INET,SOCK_STREAM,0);
     if (sock<0){
         printf("socket failed");
